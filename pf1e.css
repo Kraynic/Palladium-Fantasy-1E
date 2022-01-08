@@ -1001,11 +1001,15 @@ button[type=roll].sheet-noteroll::before{
 .sheet-rolltemplate-custom .sheet-container {
     border: 1px solid;
     border-color: var(--header-bg-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .sheet-rolltemplate-custom .sheet-header {
     background-color: var(--header-bg-color);
     text-align: center;
     color: var(--header-text-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 5px;
 }
 .sheet-rolltemplate-custom .sheet-title {
@@ -1123,11 +1127,15 @@ button[type=roll].sheet-noteroll::before{
 .sheet-rolltemplate-menu .sheet-container {
     border: 1px solid;
     border-color: var(--header-bg-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .sheet-rolltemplate-menu .sheet-header {
     background-color: var(--header-bg-color);
     text-align: center;
     color: var(--header-text-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 5px;
 }
 .sheet-rolltemplate-menu .sheet-title {
